@@ -1,1 +1,1 @@
-Buenas. Este es un proyecto en el cual estoy desarrollando para mejorar mis capacidades y autoaprendizaje en mi camino del fronted.
+Este es un proyecto en el cual estoy en autoaprendizaje en mis estudios para mejorar mis conocimientos en fronted.

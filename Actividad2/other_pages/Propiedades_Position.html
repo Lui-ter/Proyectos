@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UFT-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1,0">
+    <title>Propiedades position CSS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        header{
+            position: relative;
+            margin: 20px auto;
+            width: 1000px;
+            height: 120px;
+            background-color: #444;
+        }
+        #Logo{
+            position: absolute;
+            top: 25px;
+            left: 30px;
+            width: 200px;
+            height: 60px;
+            background-color: #ccc;
+        }
+        .Redes{
+            position: absolute;
+            width: 42px;
+            height: 42px;
+            background-color: #ccc;
+            border-radius: 100%;
+        }
+        #Icono1{
+            top: 42px;
+            right: 120px;
+        }
+        #Icono2{
+            top: 42px;
+            right: 71px;
+        }
+        #Icono3{
+            top: 42px;
+            right: 19px;
+        }
+        nav{
+            position: relative;
+            margin: auto;
+            width: 1000px;
+            height: 48px;
+        }
+        .Botones{
+            float: left;
+            width: 196px;
+            height: 48px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            margin-right: 2px;
+            margin-left: 2px;
+            background-color: #333;
+        }
+        #Top{
+            position: relative;
+            margin: 20px auto;
+            width: 1000px;
+            height: 192px;
+        }
+        #Top ul{
+            width: 1010px;
+            height: 192px;
+        }
+        #Top ul li{
+            float: left;
+            width: 326px;
+            height: 192px;
+            background: black;
+            margin-right: 10px;
+        }
+        section{
+            position: relative;
+            margin: auto;
+            width: 1000px;
+            height: 453px;
+            background: #aaa;
+        }
+        aside#Izq{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 200px;
+            height: 453px;
+            background: #333;
+        }
+        article{
+            position: absolute;
+            left: 200px;
+            top: 0;
+            width: 600px;
+            height: 453px;
+            background: #666;
+        }
+        aside#Der{
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 200px;
+            height: 453px;
+            background: #333;
+        }
+        footer{
+            position: relative;
+            margin: 20px auto;
+            width: 1000px;
+            height: 70px;
+            background: #888;
+        }
+
+    </style>
+
+<body>
+    <!--Inicio de encabezado-->
+    <header>
+        <div id="Logo"></div>
+        <div class="Redes" id="Icono1"></div>
+        <div class="Redes" id="Icono2"></div>
+        <div class="Redes" id="Icono3"></div>
+    </header>
+    <!--Final de encabezado-->
+
+    <!--Inicio de barra de navegación*/-->
+    <nav>
+        <ul>
+            <li class="Botones"></li>
+            <li class="Botones"></li>
+            <li class="Botones"></li>
+            <li class="Botones"></li>
+            <li class="Botones"></li>
+        </ul>
+    </nav>
+    <!--Cierre de navegación*/-->
+
+    <!--Inicia parte superior-->
+    <div id="Top">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <!--Cierre de parte superior-->
+
+    <!--Inicia sessión-->
+    <section>
+        <aside id="Izq"></aside>
+        <article></article>
+        <aside id="Der"></aside>
+    </section>
+    <!--Cierre de sessión-->
+
+    <!--Inicio de pie de página-->
+    <footer></footer>
+    <!--Cierre de pie de página-->
+
+
+<a href="/../Actividad2/index.html"><button>Inicio</button></a>
+</body>
+
+</html>

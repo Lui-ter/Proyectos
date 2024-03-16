@@ -1,0 +1,70 @@
+body{
+    background-color: FBF7EF;
+  
+}
+#header{
+display: flex;
+justify-content: space-between;
+}
+#header{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:40px
+}
+.perro {
+    height: 45px; width: 40px;
+    margin-top:20px;
+}
+#redes { 
+    justify-content: flex-end;
+    margin-top:40px;
+}
+#botones{
+
+    display: flex;
+    justify-content:space-around
+}
+#botones button{
+    border: none;
+    border-radius: 10px;
+    padding: 1vw 7.5vw;
+    background-color: DCCDB1;
+}
+#secciones {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.secciones1, .secciones2, .secciones3 {
+    background-color:white ;
+    border-radius:100px ;
+    padding: 1vw 2vw;
+    font-family:sans-serif;
+    font-size: 20px;
+    color: BB9249;
+    font-weight: bold;
+}
+#contenido{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.fondo1{
+    background-color: DCCDB1;
+    padding: 3vw 3vw;
+}
+#contenido img{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom:20px;
+    margin-top: none;
+    width:20vw;
+    height:15vw;
+}
+footer{
+    background-color:DCCDB1;
+    padding: 2vw 5vw;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
